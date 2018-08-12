@@ -1,0 +1,18 @@
+{
+  "name": "lazy-console",
+  "version": "1.0.0",
+  "description": "Um executator de linhas de comando de terminal",
+  "main": "lib/index.js",
+  "bin": {
+    "lazy": "bin/index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sousa Müller <muller.unasp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.17.0"
+  }
+}
