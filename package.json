@@ -2,6 +2,14 @@
   "name": "lazy-console",
   "version": "1.0.0",
   "description": "Um executator de linhas de comando de terminal",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "console",
+    "terminal",
+    "comandos",
+    "lazy",
+    "utilitários"
+  ],
   "main": "lib/index.js",
   "bin": {
     "lazy": "bin/index.js"
@@ -11,7 +19,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sousa Müller <muller.unasp@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleexmuller/lazy-console.git"
+  },
   "license": "MIT",
+  "engines": {
+    "node": ">=0.8.0"
+  },
   "dependencies": {
     "commander": "^2.17.0"
   }
